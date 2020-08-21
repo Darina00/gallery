@@ -1,0 +1,17 @@
+.main-wrapper {
+    min-height: calc(100vh - 150px);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.main-wrapper > img {
+    width: 28%;
+    margin: 10px 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+.main-wrapper > img:hover {
+    filter: blur(10px);
+    cursor: pointer;
+}
